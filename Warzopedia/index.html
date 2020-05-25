@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="./script.js"></script>
+    <title>Mainpage</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+        <span class="l1">Warzopedia</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nsc"
+          aria-controls="nsc"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nsc">
+          <ul class="navbar-nav  mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="article.html">Articles</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                W&T
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="killSwitch.html">Kill Switch</a>
+                <a class="dropdown-item" href="target.html">Target</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="LGT.html">Laser Guided Technology</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuclear.html">Nuclear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+            
+           
+          </ul>
+          <form class="form-inline my-2 my-lg-0" id="frm" action="index.html" onsubmit="return check()" target="_blank">
+            <input
+              class="form-control mr-sm-2"
+              id="srch"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <br />
+      <br />
+      <br>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide container"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./b1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <p style="color: white;">A military is a heavily armed, highly organised force primarily intended for warfare, also known collectively as armed
+              forces.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./b2.jpg" height="50%" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <p style="color: white;">Weapon, an instrument used in combat for the purpose of killing, injuring, or defeating an enemy.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./b3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <p style="color: white;">
+                Armament engineering is the design, development, testing and lifecycle management of military weapons and systems.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <br />
+        <br />
+        <h3 class="text-md-center">WELCOME TO THE HOME PAGE OF WARZOPEDIA</h3>
+        <br />
+        <p>
+          In modern era the most important thing for a country to grow,
+          flourish, develope its economy is a strong Military. Since a strong
+          military not only help us to safeguard and completely utilize our land
+          , natural resources, environment but also destroy others land,
+          environment, natural resources if required. A military is a heavily
+          armed, highly organised force primarily intended for warfare, also
+          known collectively as armed forces. Capability development, which is
+          often referred to as the military 'strength', is arguably one of the
+          most complex activities known to humanity; because it requires
+          determining: strategic, operational, and tactical capability
+          requirements to counter the identified threats; strategic,
+          operational, and tactical doctrines by which the acquired capabilities
+          will be used; identifying concepts, methods, and systems involved in
+          executing the doctrines; creating design specifications for the
+          manufacturers who would produce these in adequate quantity and quality
+          for their use in combat; purchase the concepts, methods, and systems;
+          create a forces structure that would use the concepts, methods, and
+          systems most effectively and efficiently; integrate these concepts,
+          methods, and systems into the force structure by providing military
+          education, training, and practice that preferably resembles combat
+          environment of intended use; create military logistics systems to
+          allow continued and uninterrupted performance of military
+          organisations under combat conditions, including provision of health
+          services to the personnel, and maintenance for the equipment; the
+          services to assist recovery of wounded personnel, and repair of
+          damaged equipment; and finally, post-conflict demobilisation, and
+          disposal of war stocks surplus to peacetime requirements.
+        </p>
+        <p>
+          Development of military doctrine is perhaps the more important of all
+          capability development activities, because it determines how military
+          forces were, and are used in conflicts, the concepts and methods used
+          by the command to employ appropriately military skilled, armed and
+          equipped personnel in achievement of the tangible goals and objectives
+          of the war, campaign, battle, engagement, action or a duel.
+        </p>
+        <p>
+          Basically in Warzopedia we have made efforts to classify countries
+          according to their strength and to discuss the top weapons , nuclear
+          powers and technologies used by these countries that make them real
+          strong and different from other countries. Before getting into further more details let us quickly see why it is important to have strong military power in detail.
+        </p>
+        <h4 class="text-center">Importance Of Strong Military Power</h4>
+        <ul class="list-unstyled">
+          <li><strong>Economic:</strong> A state that can protect its territory, resources and trade routes has a major economic advantage over others
+          that are unable to do so. Furthermore, military power can be a catalyst for economic growth, if applied properly.</li>
+          <br>
+          <li><strong>Demographic:</strong> A state with a relatively high degree of military power has the capability to protect its population and to
+          allow for its population to grow at a healthy pace.</li>
+          <br>
+          <li><strong>Environmental and Natural Resources:</strong> A strong military allows a country to protect its environmental and resource
+          wealth, while giving it the option to seize the environmental and resource wealth of its weaker rivals.</li>
+          <br>
+          <li><strong>Political:</strong> For better or worse, armed forces have played a major role in determining the level of political stability in
+          states throughout history. When political-military relations are strong and stable, a country is able to achieve a
+          higher degree of political power.</li>
+          <br>
+          <li><strong>Technology:</strong> The armed forces have been the catalyst and the source for many of the major technological achievements
+          reached throughout human history and are likely to remain so for the foreseeable future.</li>
+          <br>
+          <li><strong>Cultural:</strong> Military power plays a lesser role in determining a country’s level of cultural power, although states with
+          dominant military positions are often able to force their cultural norms on weaker states.</li>
+        </ul>
+        <p>Many states throughout history have used their advantages in terms of military power to achieve great power status. For
+        example, Macedonia under Philip II and Alexander was considered a backwater by other Greek powers, but its military
+        advantages allowed it to become the most powerful of all of the ancient Greek states. Prussia too was considered a
+        backwater by other European and German states, but its development of a strong military allowed it to unify Germany and
+        emerge as continental Europe’s most powerful state. The Soviet Union’s great power status was also based upon a
+        foundation of military power, something that it allowed it to emerge as a global superpower in the wake of the Second
+        World War.</p>
+        <p>While some great powers built their foundations on military power, other great powers were undermined by this same
+        power. Some states focused too many resources on their militaries, thus undermining other aspects of their power.
+        Examples of this include the latter Roman Empire, 16th-17th century Spain, and, more recently, the Soviet Union itself.
+        Other great powers failed to invest enough in their armed forces, and thus undermined their ability to fend off rival
+        powers. For example, the Byzantine Empire’s military weakness allowed for the Arabs to seize most of its territory in
+        the 7th century, while China’s military decline opened the door for the Mongols to seize control of China in the 13th
+        century. In more modern times, France’s inability to match German military power cost that country its leadership
+        position in continental Europe in the 19th and 20th centuries.</p>
+        
+          <p>Today, there is a great disparity in the level of military power among the world’s leading countries. In most areas of
+          military power, the United States is dominant, as it spends more on its armed forces than the next eight-largest
+          military spenders combined. Nevertheless, the United States has learned that, while its armed forces may be able to win
+          just about any battle against rival militaries, it is not large enough to maintain a dominant military position in
+          multiple areas of the world today. In the meantime, a new rival to the US military is emerging in China. While China is
+          now the clear number two in terms of military power, its level of military power in most areas is still dwarfed by that
+          of the United States. However, Chinese defense spending is now more than one-third of that of the US, and this gap is
+          expected to close in the years ahead. As for the rest of the world, their level of military power is far eclipsed by the
+          US and China, and no other country is able to project continuous military power far from its borders, apart from the US
+          and China. It is therefore no surprise that, as with many other aspects of power in the 21st century, the United States
+          and China remain the world’s dominant military powers and will remain so for the foreseeable future.</p>
+          <p>Below is a table showing details about some of the most powerful countries in the world.
+          </p>
+        <table class="table table-striped table-hover table-responsive">
+          <th>Country</th>
+          <th>Defence Budgets
+            <h6>(US$ bn)</h6></th>
+          <th>Nuclear Warheads
+            <h6>Deployed/Total</h6>
+          </th>
+          <th>Active Military Personnel</th>
+          <th>Aircraft Carriers
+            <h6>In Service</h6>
+          </th>
+          <tr>
+            <td>America</td>
+            <td>684.6</td>
+            <td>1600/6185</td>
+            <td>1,359,450</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <tr>
+              <td>Russia</td>
+              <td>61.6</td>
+              <td>1600/6500</td>
+              <td>900,000</td>
+              <td>1</td>
+            </tr>
+            <td>China</td>
+            <td>181.1</td>
+            <td>(?)/290</td>
+            <td>2,035,000</td>
+            <td>2</td>
+          </tr>
+          </tr>
+          <td>UK</td>
+          <td>54.8</td>
+          <td>120/215</td>
+          <td>148,350</td>
+          <td>2</td>
+          </tr>
+          </tr>
+          <td>France</td>
+          <td>52.3</td>
+          <td>280/300</td>
+          <td>203,900</td>
+          <td>1</td>
+          </tr>
+        </table>
+        <p>In the above table a brief account of information is available on some particular topics namely defence budget, active personnels, warships, nuclear weapons etc. In order to know in detail about each of them along with their top weapons, aircrafts, tanks, misissiles, check below. </p>
+      </div>
+      <br><br>
+      <div class="container padding">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h6 class="display-4">TOP MILITARY POWER</h6>
+          </div>
+          <hr class="light">
+          <br>
+        </div>
+      </div>
+      <div class="container padding">
+        <div class="row padding">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="./f1.png" height="250px" alt="">
+              <div class="card-body">
+                <h4 class="card-title">United States</h4>
+                <p class="card-text">The United States retains its top spot as the undisputed military power in the world - both numerically and
+                technologically.</p>
+                <a href="./cAmerica.html" class="btn btn-outline-secondary" target="_blank">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="./f2.jpg" height="250px" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Russia</h4>
+                <p class="card-text">The Russian military continues to make strides towards modernization - and in-the-field experience in Syria has helped.
+                </p>
+                <a href="https://www.globalfirepower.com/country-military-strength-detail.asp?country_id=russia" target="_blank" class="btn btn-outline-secondary">More</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="./f3.png" height="250px" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">China</h4>
+                  <p class="card-text">Second only to the U.S. and Russia, the Chinese military continues to grow alongside a local burgeoning
+                  Military-Industrial Complex.</p>
+                  <a href="https://www.globalfirepower.com/country-military-strength-detail.asp?country_id=china" class="btn btn-outline-secondary" target="_blank">More</a>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="./f4.png" height="250px" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">United Kingdom</h4>
+                    <p class="card-text">It remains to be seen what BREXIT means for the future of Britain - but its fighting forces remain one of the world's
+                    best.</p>
+                    <a href="https://www.globalfirepower.com/country-military-strength-detail.asp?country_id=united-kingdom" class="btn btn-outline-secondary" target="_blank">More</a>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./f5.png" height="250px" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">France</h4>
+                      <p class="card-text">France remains a top-level military power with the internal capability to develop and produce any solution it requires.
+</p>
+                      <a href="https://www.globalfirepower.com/country-military-strength-detail.asp?country_id=france" class="btn btn-outline-secondary" target="_blank">More</a>
+                    </div>
+                  </div>
+                  </div>
+                  
+        </div>
+      </div>
+      <br>
+      <br>
+     
+      <div class="container padding">
+        <p>Do check article , weapon and technology(W&T), Nuclear section in the Navbar. You can also visit our Video section for more interesting topics.</p>
+        <br>
+        <br>
+
+        <div class="row text-center padding">
+          <div class="col-12">
+            <h2>Connect Us</h2>
+            <hr class="light">
+          </div>
+          <div class="col-12 social padding">
+            <a href="https://www.facebook.com/groups/righttorecallparty/?ref=share" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.youtube.com/user/RightToRecallGroup"><i class="fa fa-youtube" target="_blank"></i></a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+    </section>
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="./logo.png" alt="..." width="70px" />
+            <span class="fbrand">Warzopedia</span>
+            <hr class="light" />
+            <p>Anonymous</p>
+            <p>yonkokaido727@gmail.com</p>
+            <p>Ghaziabad</p>
+            <p>Uttar Pradesh, India</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Main Source</h5>
+            <hr class="light" />
+            <p>Wikipedia.org</p>
+            <p>globalfirepower.com</p>
+            <p>RightToRecallGroup(Youtube)</p>
+            <p>righttorecallparty(Facebook)</p>
+            
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Main Focus</h5>
+            <hr class="light" />
+            <p>Kill Switch</p>
+            <p>Target Switch</p>
+            <p>Laser Guided Technology</p>
+            <p>Nuclear Section</p>
+          </div>
+          <div class="col-12">
+            <hr class="light" />
+            <p>All rights of this website is reserved to YD. It is created from sources available at different platforms. However we do not promote any particular page or channel.</p>
+            <h5>&copy;Warzopedia</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
